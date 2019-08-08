@@ -2,7 +2,7 @@
 FROM node:8-onbuild
 
 # set maintainer
-LABEL maintainer "Xtos"
+LABEL maintainer "xtos"
 
 # set a health check
 HEALTHCHECK --interval=5s \
@@ -11,3 +11,5 @@ HEALTHCHECK --interval=5s \
 
 # expose port on docker
 EXPOSE 8000
+
+RUN apt-get update

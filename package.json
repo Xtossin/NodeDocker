@@ -1,5 +1,5 @@
 {
-  "name": "Xtos",
+  "name": "xtos",
   "version": "1.0.0",
   "description": "A simple HTTP Server",
   "main": "main.js",
